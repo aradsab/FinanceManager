@@ -10,4 +10,7 @@ elif [[ "$OSTYPE" == "darwin"* ]]; then
     if ! "$(which grep | grep -q "/opt/local/libexec/gnubin/")" ; then
         sudo port install grep
     fi
+    pip install update
+    pip install django
+    pip install djangorestframework
 fi
