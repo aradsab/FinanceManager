@@ -1,2 +1,2 @@
 # FinanceManager
-my name is sam 
+my is sam 
