@@ -1,2 +1,0 @@
-# FinanceManager
-my is sam 

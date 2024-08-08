@@ -20,4 +20,5 @@ elif [[ "$OSTYPE" == "darwin"* ]]; then
     pip install update
     pip install django
     pip install djangorestframework
+    npx create-react-app my-app
 fi
