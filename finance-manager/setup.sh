@@ -11,7 +11,9 @@ if [ "$OSTYPE" == "msys" ]; then
     .\env\Scripts\activate
     pip install django
     pip install djangorestframework
+    Node.js v20.15.1.
     pip install react
+
 
 elif [[ "$OSTYPE" == "darwin"* ]]; then
     if ! "$(which grep | grep -q "/opt/local/libexec/gnubin/")" ; then
