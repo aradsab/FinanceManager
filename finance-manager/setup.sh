@@ -13,7 +13,10 @@ if [ "$OSTYPE" == "msys" ]; then
     pip install djangorestframework
     Node.js v20.15.1.
     pip install react
+    MYSQL Router 8.0
     MYSQL Shell 8.0
+    MYSQL Server 8.0
+    MYSQL Workbench 8.0
 
 
 elif [[ "$OSTYPE" == "darwin"* ]]; then
