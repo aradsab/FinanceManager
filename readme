@@ -1,0 +1,41 @@
+# Finance Manager
+
+Goal: provide daily/weekly budget for users and give them restaurant suggestions.
+
+## First step:
+ 
+We'll store
+
+1. budget. (income + saving)
+
+Mandatory expenses: 
+1. rent
+2. Pay for food
+3. health
+
+Controlable expenses:
+1. entertainment
+2. clothing
+
+
+## Second step:
+
+Per day: we'll provide check points during the day
+Take How much they spent on:
+1. Food
+2. extras
+3. clothing
+4. entertainment
+
+if the expense is necessary, it won't effect the budget. But otherwise, it will be deducted from the future.
+
+Provide feedback and let them know how much they have left. 
+
+## Third step:
+
+Affordable nearby restaurants
+
+
+
+
+
