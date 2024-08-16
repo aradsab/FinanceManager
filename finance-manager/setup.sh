@@ -27,4 +27,6 @@ elif [[ "$OSTYPE" == "darwin"* ]]; then
     pip install django
     pip install djangorestframework
     npx create-react-app my-app
+    conda create -n finance_manager
+    conda activate finance_manager
 fi
