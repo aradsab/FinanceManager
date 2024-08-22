@@ -7,22 +7,15 @@ if [ "$OSTYPE" == "msys" ]; then
         choco install git -y
 
     fi
-    pip install djangorestframework
     Node.js v20.15.1.
     pip install react
-    MYSQL Shell 8.0
-    MYSQL Server 8.0
-    MYSQL Workbench 8.0
+    MYSQL Shell 5.7.44
+    MYSQL Server 5.7.44
+    MYSQL Workbench 5.7.44
+    pip3 install django==4.1
+    pip3 install djangorestframework==3.14
     pip install mysqlclient
     pip install pymysql
-    mysql Project: FinancialManager_Data
-    mkdir my_django_project
-    cd my_django_project
-    python3 -m venv env
-    source env\Scripts\activate
-    rm -rf env
-    python -m venv env
-    pip install django
 
 
 
