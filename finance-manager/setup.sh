@@ -7,9 +7,6 @@ if [ "$OSTYPE" == "msys" ]; then
         choco install git -y
 
     fi
-    python3 -m venv env
-    .\env\Scripts\activate
-    pip install django
     pip install djangorestframework
     Node.js v20.15.1.
     pip install react
@@ -18,7 +15,15 @@ if [ "$OSTYPE" == "msys" ]; then
     MYSQL Workbench 8.0
     pip install mysqlclient
     pip install pymysql
-    
+    mysql Project: FinancialManager_Data
+    mkdir my_django_project
+    cd my_django_project
+    python3 -m venv env
+    source env\Scripts\activate
+    rm -rf env
+    python -m venv env
+    pip install django
+
 
 
 elif [[ "$OSTYPE" == "darwin"* ]]; then

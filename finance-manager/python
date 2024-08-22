@@ -1,2 +1,13 @@
 import pymysql
 pymysql.install_as_MySQLdb()
+
+DATABASES = {
+    'default': {
+        'ENGINE': 'django.db.backends.mysql',
+        'NAME': 'my_database_name',
+        'USER': 'my_user',
+        'PASSWORD': 'my_password',
+        'HOST': 'localhost',
+        'PORT': '3306',
+    }
+}
