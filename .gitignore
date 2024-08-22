@@ -1,2 +1,5 @@
 .history/*
 node_modules/
+myenv/
+/venv
+/my_django_project/myproject/myproject/__pycache__
