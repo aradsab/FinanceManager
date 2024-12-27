@@ -1,6 +1,9 @@
 function TransactionForm() {
     return (
         <form className="max-w-md mx-auto p-4 bg-gray-100 rounded-md shadow">
+            <h1 className="text-3xl font-semibold text-center">
+                Add Earnings
+            </h1>
             <div className="mb-4">
                 <label className="block text-gray-700 mb-2">Description</label>
                 <input
