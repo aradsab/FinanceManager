@@ -3,6 +3,8 @@ import './App.css';
 import TransactionForm from "./component/TransactionFrom";
 import PersonalInfo from "./component/PersonalInfo";
 import ExpenseForm from "./component/ExpenseForm";
+import MonthlyBudget from './component/MonthlyBudget';
+import AmountSpent from './component/AmountSpent';
 
 function App() {
   return (
@@ -11,6 +13,8 @@ function App() {
           <PersonalInfo />
           <TransactionForm />
           <ExpenseForm />
+          <MonthlyBudget />
+          <AmountSpent />
       </div>
   );
 }

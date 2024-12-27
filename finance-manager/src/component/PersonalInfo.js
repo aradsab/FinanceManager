@@ -1,7 +1,7 @@
 function PersonalInfo() {
     return (
         <form className="p-4 bg-gray-100 rounded-md shadow">
-            <h1 className="text-3xl font-semibold text-center">
+            <h1 className="text-3xl font-semibold text">
                 Personal Information
             </h1>
             <div className="flex space-x-4 mb-4">
