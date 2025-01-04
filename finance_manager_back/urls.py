@@ -13,9 +13,20 @@ Including another URLconf
     1. Import the include() function: from django.urls import include, path
     2. Add a URL to urlpatterns:  path('blog/', include('blog.urls'))
 """
+
 from django.contrib import admin
-from django.urls import path
+from django.urls import path, include
+from rest_framework.routers import DefaultRouter
+from apps.finance_manager.views import CategoryViewSet, TransactionViewSet, BudgetViewSet
+
+
+# Create router and register viewsets
+router = DefaultRouter()
+router.register(r'categories', CategoryViewSet)
+router.register(r'transactions', TransactionViewSet)
+router.register(r'budgets', BudgetViewSet)
 
 urlpatterns = [
     path('admin/', admin.site.urls),
+    path('api/', include(router.urls)),  # Include DRF router URLs
 ]
