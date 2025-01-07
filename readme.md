@@ -39,6 +39,9 @@ Affordable nearby restaurants
 
 https://docs.google.com/document/d/11mtYe_ah3J0fS9J7SFOPNfwAct6kmTrp9GRhLc4G-8E/edit?usp=sharing
 
+![Database ER diagram (crow's foot)](https://github.com/user-attachments/assets/87a29c53-f734-4895-a03e-62f0845f58ec)
+
+
 
 
 
