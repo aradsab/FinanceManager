@@ -21,6 +21,7 @@ function PersonalInfo() {
                         placeholder="Enter last name"
                     />
                 </div>
+                
             </div>
             <div className="flex space-x-4 mb-4">
                 <div className="flex flex-col w-1/2">

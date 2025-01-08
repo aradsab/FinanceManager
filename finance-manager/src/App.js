@@ -3,10 +3,12 @@ import './App.css';
 import TransactionForm from "./component/TransactionFrom";
 import PersonalInfo from "./component/PersonalInfo";
 import ExpenseForm from "./component/ExpenseForm";
-import { useNavigate } from 'react-router-dom';
-import { Routes, Route } from 'react-router-dom';
+import Login from "./component/Login";
 import Suggestion from "./component/Suggestion";
 import AffordableRestaurants from './component/AffordableRestaurants';
+import Register from "./component/Register"; // Import Register component
+import { useNavigate } from 'react-router-dom';
+import { Routes, Route } from 'react-router-dom';
 
 function App() {
     const navigate = useNavigate();
@@ -34,13 +36,15 @@ function App() {
                                     type="submit"
                                     className="bg-blue-600 text-white px-6 py-2 rounded-md hover:bg-blue-700"
                                 >
-                                    Submit
+                                    Save Changes
                                 </button>
                             </form>
                         </div>
                     </div>
                 }
             />
+            <Route path="/login" element={<Login />} />
+            <Route path="/register" element={<Register />} /> {/* Add register route */}
             <Route path="/suggestions" element={<Suggestion />} />
             <Route path="/restaurants" element={<AffordableRestaurants />} />
         </Routes>
